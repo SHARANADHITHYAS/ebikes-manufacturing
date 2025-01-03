@@ -1,0 +1,45 @@
+{
+    "name": "E-Bikes Manufacturing Site",
+    "description": "E-Bikes Manufacturing site. Built on Lightning Web Runtime.",
+    "repository": "https://github.com/pozil/ebikes-manufacturing-lwc-oss",
+    "logo": "https://lwc-recipes-oss.herokuapp.com/assets/images/logo.svg",
+    "keywords": ["lightning", "salesforce", "web-components", "lwr"],
+    "env": {
+        "SALESFORCE_LOGIN_URL": {
+            "description": "Salesforce authentication domain",
+            "value": "https://test.salesforce.com/",
+            "required": true
+        },
+        "SALESFORCE_API_VERSION": {
+            "description": "Salesforce API version",
+            "value": "55.0",
+            "required": true
+        },
+        "SALESFORCE_USERNAME": {
+            "description": "Salesforce username",
+            "value": "",
+            "required": true
+        },
+        "SALESFORCE_PASSWORD": {
+            "description": "Salesforce password",
+            "value": "",
+            "required": true
+        },
+        "SALESFORCE_TOKEN": {
+            "description": "Salesforce security token",
+            "value": "",
+            "required": true
+        },
+        "PUB_SUB_ENDPOINT": {
+            "description": "Pub Sub API endpoint",
+            "value": "api.pilot.pubsub.salesforce.com:7443",
+            "required": true
+        },
+        "PUB_SUB_PROTO_FILE": {
+            "description": "Pub Sub API protobuf file",
+            "value": "pubsub_api.proto",
+            "required": true
+        }
+    },
+    "success_url": "/"
+}
